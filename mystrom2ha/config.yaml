@@ -11,8 +11,9 @@ arch:
   - armv7
   - i386
 startup: services
-port:
+ports:
   32570/tcp: 32570
+  32571/tcp: 32571
 options:
   Webservice_Password: "mystrom2ha"
 schema:
