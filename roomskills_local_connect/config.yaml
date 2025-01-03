@@ -1,5 +1,6 @@
 name: "Roomskills Local Connect"
-description: "Roomskills Local Connect Tool as Addon on Home Assistant!"
+description: "Roomskills Local Connect Tool as Addon for Home Assistant!"
+url: "https://www.roomskills.com"
 version: "1.0.0"
 slug: "roomskills_local_connect"
 init: false
