@@ -4,7 +4,7 @@ Here you find MyStrom2HA as Home Assistant Addon. To install perform the followi
 
 After installing the addon
 
-- In Configuration enter the Password of the hosting Home assitant instance and click on 'save'
+- Optionally: In Configuration change the password of the webservice and click on 'save'
 - then start the addon
-- after the addon has startet open the address http://(ip of the host):32655
-- authorize the plugin to connect to Roomskills by entering the user and passwort or login to the addon by using Amazon login
+- after the addon has startet open the web ui to add buttons
+- you need to use the mystrom tool to identify the button ips and then add them using the web ui
