@@ -19,5 +19,4 @@ options:
   home_assistant_ip: "192.168."
 schema:
   home_assistant_ip: "str?"
-ingress: true
-ingress_port: 32655
+webui: http://[HOST]:[PORT:32655]
