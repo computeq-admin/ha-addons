@@ -1,1 +1,11 @@
-
+---
+channel: stable
+addons:
+  roomskills_local_connect:
+    repository: ha-addons/addon-adguard-home
+    target: adguard
+    image: ghcr.io/hassio-addons/adguard/{arch}
+  aircast:
+    repository: hassio-addons/addon-aircast
+    target: aircast
+    image: ghcr.io/hassio-addons/aircast/{arch}
