@@ -1,4 +1,5 @@
 #!/bin/bash
+export RLC_IP=$(cat /data/options.json | python3 -c "import sys, json; print(json.load(sys.stdin)['home_assistant_ip'])")
 while [ 1 ]
 do 
 	#Installing required package
