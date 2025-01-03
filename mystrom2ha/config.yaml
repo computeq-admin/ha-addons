@@ -17,4 +17,5 @@ options:
   Webservice_Password: "mystrom2ha"
 schema:
   home_assistant_ip: "str?"
-webui: http://[HOST]:[PORT:32570]
+ingress: true
+ingress_port: 32570
