@@ -1,0 +1,21 @@
+name: "Roomskills Local Connect"
+description: "Roomskills Local Connect Tool as Addon on Home Assistant!"
+version: "1.0.0"
+slug: "roomskills_local_connect"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  32653/tcp: 32653
+  32655/tcp: 32655
+  32656/tcp: 32656
+options:
+  home_assistant_ip: "192.168."
+schema:
+  home_assistant_ip: "str?"
+webui: http://[HOST]:[PORT:32655]
