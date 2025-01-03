@@ -16,6 +16,6 @@ ports:
 options:
   Webservice_Password: "mystrom2ha"
 schema:
-  home_assistant_ip: "str?"
+  Webservice_Password: "str?"
 ingress: true
 ingress_port: 32570
