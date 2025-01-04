@@ -8,8 +8,8 @@ do
 	#Installing required package
 	/usr/local/bin/pip install paho-mqtt
 	echo "Starting MyStrom2HA"
-	cp mystrom2ha.py /data/mystrom2ha.py
-	ln -s resources /data/resources
+	cp src/mystrom2ha.py /data/mystrom2ha.py
+	cp -r resources /data/
 	cd /data
 	python mystrom2ha.py
 	sleep 30
