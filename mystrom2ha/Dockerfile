@@ -1,3 +1,0 @@
-FROM python:3.12.2
-WORKDIR /data
-EXPOSE 32570/tcp
