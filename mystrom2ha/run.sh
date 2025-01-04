@@ -1,7 +1,4 @@
 #!/bin/bash
-echo "------"
-cat /data/options.json
-echo "------"
 export MYSTROM2HA_ACCESS_PASSWORD=$(cat /data/options.json | python3 -c "import sys, json; print(json.load(sys.stdin)['Webservice_Password'])")
 while [ 1 ]
 do 
