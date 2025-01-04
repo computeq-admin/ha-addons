@@ -1,4 +1,4 @@
-name: "Mystrom2ha"
+name: "MyStrom2HA"
 description: "Server zum Anbinden von MySteom Buttons an HA via MQTT"
 url: "https://hub.docker.com/r/computequg/mystrom2ha"
 version: "1.0.0"
@@ -11,12 +11,13 @@ arch:
   - armv7
   - i386
 startup: services
-ports:
-  32570/tcp: 32570
-  32571/tcp: 32571
 options:
   Webservice_Password: "mystrom2ha"
 schema:
   Webservice_Password: "str"
+ports:
+  32570/tcp: 32570
+ports_description:
+  7277/tcp: MyStrom2HA Web interface
 ingress: true
 ingress_port: 32570
