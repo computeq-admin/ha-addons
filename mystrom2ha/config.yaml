@@ -1,7 +1,7 @@
 name: "MyStrom2HA"
 description: "Server zum Anbinden von MySteom Buttons an HA via MQTT"
 url: "https://hub.docker.com/r/computequg/mystrom2ha"
-version: "1.0.0"
+version: "1.0.1"
 slug: "mystrom2ha"
 init: false
 arch:
